@@ -1,0 +1,12 @@
+127.0.0.1 - - [10/Oct/2024:15:37:11 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:15:37:12 +0530] "GET /add-result/ HTTP/1.1" 200 633
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:15:37:12 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:15:37:43 +0530] "GET /add-result/AddResult?sid=1&sname=raksh&marks=100&marks2=0&marks3=32 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:15:37:52 +0530] "GET /add-result/AddResult?sid=1&sname=raksh&marks=100&marks2=0&marks3=32 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:15:38:34 +0530] "GET /add-result/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:15:38:48 +0530] "GET /add-result/AddResult?sid=7&sname=yg&marks=90&marks2=7&marks3=5 HTTP/1.1" 200 33
+127.0.0.1 - - [10/Oct/2024:17:30:02 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:17:30:03 +0530] "GET /add-result-mvc/ HTTP/1.1" 200 639
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:17:30:17 +0530] "GET /add-result-mvc/AddResult?sid=9&sname=dws&marks=3&marks2=4&marks3=3 HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:17:30:17 +0530] "GET /add-result-mvc/addresultsuccess.html HTTP/1.1" 200 142
+0:0:0:0:0:0:0:1 - - [10/Oct/2024:17:30:17 +0530] "GET /add-result-mvc/AddResult?sid=9&sname=dws&marks=3&marks2=4&marks3=3 HTTP/1.1" 302 -

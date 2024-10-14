@@ -1,0 +1,27 @@
+
+public class pgm1 {
+	
+	static int span(int[]a) {
+		int max=a[0];
+		int min=a[0];
+		for(int i=0;i<=a.length-1;i++) {
+			if(max>a[i]) {
+				max=a[i];
+			}
+			if(min<a[i]) {
+				min=a[i];
+			}
+		}
+		return max-min;
+	}
+	
+	
+	
+	
+	
+	
+public static void main(String[] args) {
+	int []a= {1,2,3,45,6};
+	System.out.println(span(a));
+}
+}
